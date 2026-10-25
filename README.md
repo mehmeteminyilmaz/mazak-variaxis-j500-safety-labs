@@ -1,6 +1,6 @@
 # Yazılım Mühendisliğinde Güncel Konular – Mazak Variaxis J-500
 
-Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4), **Dora Makina – MAZAK VARIAXIS J-500 CNC Dik İşleme Merkezi** için hazırlanmıştır.
+Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4) ve analiz dokümanları, **Dora Makina – MAZAK VARIAXIS J-500 CNC Dik İşleme Merkezi** için hazırlanmıştır.
 
 ---
 
@@ -12,18 +12,19 @@ Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4), **Dora Makina – MAZAK VA
 
 ---
 
-## Laboratuvar Föyleri
+## Laboratuvar Föyleri ve Belgeler
 
-| Lab | Konu | Çıktı / Kapsam | İlgili Dosya |
+| No | Konu | Çıktı / Kapsam | İlgili Dosya |
 |:---:|---|---|:---:|
 | **Lab 1** | Safety Architecture | Safety Function Map | [Lab1_Safety_Architecture.pdf](Lab1_Safety_Architecture.pdf) |
 | **Lab 2** | IEC 62443 Mini Workshop | Zone / Conduit Diagram | [Lab2_IEC_62443_Mini_Workshop.pdf](Lab2_IEC_62443_Mini_Workshop.pdf) |
 | **Lab 3** | Threat & Risk + Risk Matrix | Risk Register | [Lab3_Threat_Risk_Risk_Matrix.pdf](Lab3_Threat_Risk_Risk_Matrix.pdf) |
 | **Lab 4** | Secure Remote Access | Secure Architecture | [Lab4_Secure_Remote_Access.pdf](Lab4_Secure_Remote_Access.pdf) |
+| **SWOT** | SWOT Analizi | Güçlü/Zayıf Yönler, Fırsat ve Tehditler | [SWOT_Analizi.pdf](SWOT_Analizi.pdf) |
 
 ---
 
-## Laboratuvar Detayları
+## Çalışma Detayları
 
 ### Lab 1: Safety Architecture (Emniyet Mimarisi)
 - **Hedef:** Mazak Variaxis J-500 makinesi için acil durdurma (E-stop), emniyet kapıları, kilitlemeler ve çift kanal güvenlik devrelerinin analizi.
@@ -40,6 +41,10 @@ Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4), **Dora Makina – MAZAK VA
 ### Lab 4: Secure Remote Access (Güvenli Uzaktan Erişim)
 - **Hedef:** CNC tezgahına bakım, telemetri ve izleme amaçlı uzaktan bağlantılarda sıfır güven (Zero Trust), VPN/Jump Server ve yetkilendirme mekanizmalarının kurgulanması.
 - **Çıktı:** Güvenli Uzaktan Erişim Mimarisi dokümanı.
+
+### SWOT Analizi
+- **Hedef:** Mazak Variaxis J-500 sisteminin endüstriyel güvenlik ve emniyet altyapısına yönelik güçlü/zayıf yönler ile fırsat ve tehditlerin analizi.
+- **Çıktı:** SWOT Analizi raporu.
 
 ---
 

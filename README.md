@@ -1,6 +1,6 @@
 # Yazılım Mühendisliğinde Güncel Konular – Mazak Variaxis J-500
 
-Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–7) ve analiz dokümanları, **Dora Makina – MAZAK VARIAXIS J-500 CNC Dik İşleme Merkezi** için hazırlanmıştır.
+Safety 4.0 Bootcamp föyleri ve analiz dokümanları, **Dora Makina – MAZAK VARIAXIS J-500 CNC Dik İşleme Merkezi** için hazırlanmıştır.
 
 ---
 

@@ -1,6 +1,6 @@
 # Yazılım Mühendisliğinde Güncel Konular – Mazak Variaxis J-500
 
-Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4) ve analiz dokümanları, **Dora Makina – MAZAK VARIAXIS J-500 CNC Dik İşleme Merkezi** için hazırlanmıştır.
+Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–7) ve analiz dokümanları, **Dora Makina – MAZAK VARIAXIS J-500 CNC Dik İşleme Merkezi** için hazırlanmıştır.
 
 ---
 
@@ -20,6 +20,9 @@ Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4) ve analiz dokümanları, **
 | **Lab 2** | IEC 62443 Mini Workshop | Zone / Conduit Diagram | [Lab2_IEC_62443_Mini_Workshop.pdf](Lab2_IEC_62443_Mini_Workshop.pdf) |
 | **Lab 3** | Threat & Risk + Risk Matrix | Risk Register | [Lab3_Threat_Risk_Risk_Matrix.pdf](Lab3_Threat_Risk_Risk_Matrix.pdf) |
 | **Lab 4** | Secure Remote Access | Secure Architecture | [Lab4_Secure_Remote_Access.pdf](Lab4_Secure_Remote_Access.pdf) |
+| **Lab 5** | SBOM / CVE / Patch | Vulnerability Decision | [Lab5_SBOM_CVE_Patch.pdf](Lab5_SBOM_CVE_Patch.pdf) |
+| **Lab 6** | CRA Incident Simulation | Incident Workflow | [Lab6_CRA_Incident_Simulation.pdf](Lab6_CRA_Incident_Simulation.pdf) |
+| **Lab 7** | AI Safety Challenge | AI Fail-Safe Decision | [Lab7_AI_Safety_Challenge.pdf](Lab7_AI_Safety_Challenge.pdf) |
 | **SWOT** | SWOT Analizi | Güçlü/Zayıf Yönler, Fırsat ve Tehditler | [SWOT_Analizi.pdf](SWOT_Analizi.pdf) |
 
 ---
@@ -41,6 +44,18 @@ Safety 4.0 Bootcamp laboratuvar föyleri (Lab 1–4) ve analiz dokümanları, **
 ### Lab 4: Secure Remote Access (Güvenli Uzaktan Erişim)
 - **Hedef:** CNC tezgahına bakım, telemetri ve izleme amaçlı uzaktan bağlantılarda sıfır güven (Zero Trust), VPN/Jump Server ve yetkilendirme mekanizmalarının kurgulanması.
 - **Çıktı:** Güvenli Uzaktan Erişim Mimarisi dokümanı.
+
+### Lab 5: SBOM, CVE & Patch Management
+- **Hedef:** Mazatrol CNC kontrol firmware ve kütüphaneleri için SBOM oluşturma, kritik CVE (CVSS 9.8) zafiyet analizi, üretim duruş riskine karşı erişim engelleme (mitigation) ve kontrollü test/yama karar süreçlerinin kurgulanması.
+- **Çıktı:** Vulnerability Decision dokümanı.
+
+### Lab 6: CRA Incident Simulation (Cyber Resilience Act Olay Müdahale)
+- **Hedef:** Yetkisiz uzaktan erişim ve parametre değişikliği şüphesi senaryosunda (gece yetkisiz servis girişi); ilk 15 dakika kontrollü duruş ve ağ izolasyonu, ilk 2 saat LOTO ve dijital kanıt koruma (adli kopya/hash), 24 saat içinde CRA erken uyarı bildirim adımlarının simülasyonu.
+- **Çıktı:** Incident Workflow dokümanı.
+
+### Lab 7: AI Safety Challenge (Yapay Zeka Emniyet Değerlendirmesi)
+- **Hedef:** CNC tezgahında yapay zeka destekli takım aşınma/kırılma tespiti ve adaptif ilerleme kontrolünde fail-safe mimarisi, sensör manipülasyonu/sapma denetimi, güven eşiği (confidence threshold) ve kural tabanlı fallback mekanizmalarının tasarlanması.
+- **Çıktı:** AI Fail-Safe Decision dokümanı.
 
 ### SWOT Analizi
 - **Hedef:** Mazak Variaxis J-500 sisteminin endüstriyel güvenlik ve emniyet altyapısına yönelik güçlü/zayıf yönler ile fırsat ve tehditlerin analizi.
